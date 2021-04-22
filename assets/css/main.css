@@ -110,3 +110,89 @@ height: 100%;
   left:-218px ;
   
 }
+
+.fa-calendar{
+  position: relative;
+}
+
+.fa-calendar::before{
+  content: "\f133";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8px;
+    padding-left: 5px;
+    font-size: 30px;
+}
+.fa-map-marker{
+  position: relative;
+}
+
+.fa-map-marker::before{
+  content: "\f041";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    padding-right: 0.5em;
+    position: absolute;
+    top: -40px;
+    left: 125px;
+
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.fa-clock-o{
+  position: relative;
+}
+
+.fa-clock-o::before{
+  content: "\f017";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    padding-right: 0.5em;
+    position: absolute;
+    top: -60px;
+    left: 235px;
+
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 9px;
+    padding-left: 6px;
+    font-size: 30px;
+}
