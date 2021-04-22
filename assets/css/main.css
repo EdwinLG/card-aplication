@@ -8,13 +8,15 @@ body{
   height: 200px; 
   
   margin-right: 5px;
-  border-radius: 10px;
-  border: 3px solid #FFF;
+  border-radius: 18px;
+  border: 5px solid #FFF;
 }
+
 .img-responsive{
 width: 100%;
 height: 100%;
 }
+
 .card{
     width: 350px;
     min-height: 600px;
@@ -31,7 +33,7 @@ height: 100%;
 
   .alinear{
     position: relative;
-    top: -23px;
+    top: -28px;
     left: 20px;
   }
 
@@ -57,11 +59,12 @@ height: 100%;
 .previous{
   border: 1px solid #E9E6E7;
   border-radius: 8px;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   text-align: center;
-  padding: 0px 6px;
-  font-size: 30px;
+  justify-content: center;
+  padding-top: 2px;
+  font-size: 45px;
   color: grey;
 }
 .buttom{
@@ -70,27 +73,18 @@ height: 100%;
   border-radius: 10px;
   padding: 12px 18px;
   text-align: center;
+  color:grey
 }
 .buttom:hover{
   
   background-color: #FF599D;
   transition-duration: 0.6s;
   cursor: pointer;
+  color: white;
 }
 .buttom:active{
   background-color: #FF0068;
   
-}
-.muted{
-  color: grey;
-}
-.muted:hover{
-  
-  color:#FFF;
-
-}
-.muted:active{
-  color: #FFF;
 }
 
 .gallery-images{ 
@@ -100,3 +94,19 @@ height: 100%;
   position: relative;
 }
 
+.date{
+  position: relative;
+  top:-43px ;
+  left: 30px;
+}
+.ball{
+  position: relative;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border:none;
+  margin: -20px auto 20px;
+  top:20px ;
+  left:-218px ;
+  
+}
